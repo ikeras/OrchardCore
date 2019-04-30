@@ -6,9 +6,9 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "Web App: Dotnet Build Debug",
-			"program": "${workspaceRoot}/src/OrchardCore.Cms.Web/bin/Debug/netcoreapp2.2/OrchardCore.Cms.Web.dll",
+			"program": "c:/demo/OrchardCore/src/OrchardCore.Cms.Web/bin/Debug/netcoreapp2.2/OrchardCore.Cms.Web.dll",
 			"args": [],
-			"cwd": "${workspaceRoot}/src/OrchardCore.Cms.Web",
+			"cwd": "c:/demo/OrchardCore/src/OrchardCore.Cms.Web",
 			"env": {				
 				"ASPNETCORE_ENVIRONMENT": "Development"
 			},
@@ -20,9 +20,9 @@
 			"request": "launch",
 			"internalConsoleOptions": "openOnSessionStart",
 			"preLaunchTask": "Web App: Dotnet Build Debug",
-			"program": "${workspaceRoot}/src/OrchardCore.Cms.Web/bin/Debug/netcoreapp2.2/OrchardCore.Cms.Web.dll",
+			"program": "c:/demo/OrchardCore/src/OrchardCore.Cms.Web/bin/Debug/netcoreapp2.2/OrchardCore.Cms.Web.dll",
 			"args": [],
-			"cwd": "${workspaceRoot}/src/OrchardCore.Cms.Web",
+			"cwd": "c:/demo/OrchardCore/src/OrchardCore.Cms.Web",
 			"env": {				
 				"ASPNETCORE_ENVIRONMENT": "Development"
 			},
@@ -47,9 +47,9 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "Web App: Dotnet Build Release",
-			"program": "${workspaceRoot}/src/OrchardCore.Cms.Web/bin/Release/netcoreapp2.2/OrchardCore.Cms.Web.dll",
+			"program": "c:/demo/OrchardCore/src/OrchardCore.Cms.Web/bin/Release/netcoreapp2.2/OrchardCore.Cms.Web.dll",
 			"args": [],
-			"cwd": "${workspaceRoot}/src/OrchardCore.Cms.Web",
+			"cwd": "c:/demo/OrchardCore/src/OrchardCore.Cms.Web",
 			"stopAtEntry": false,
 			"launchBrowser": {
 				"enabled": true,
@@ -72,9 +72,9 @@
 			"request": "launch",
 			"internalConsoleOptions": "openOnSessionStart",
 			"preLaunchTask": "Web App: Dotnet Publish",
-			"program": "${workspaceRoot}/../publish/OrchardCore.Cms.Web.dll",
+			"program": "c:/demo/OrchardCore/../publish/OrchardCore.Cms.Web.dll",
 			"args": [],
-			"cwd": "${workspaceRoot}/../publish",
+			"cwd": "c:/demo/OrchardCore/../publish",
 			"stopAtEntry": false,
 			"launchBrowser": {
 				"enabled": true,
@@ -89,7 +89,7 @@
             "name": "Gulp Debug",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/node_modules/gulp/bin/gulp.js",
+            "program": "c:/demo/OrchardCore/node_modules/gulp/bin/gulp.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
